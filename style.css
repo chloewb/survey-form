@@ -1,0 +1,56 @@
+html,
+body {
+  text-align: center;
+  font-family: "Playfair Display", Helvetica;
+  background-color: #CEE3F6;
+ 
+}
+
+main {
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-family: "Montserrat", Helvetica;
+}
+
+#name-field, #email-field, #age-field, #dropdown-field, #radio-field, #checkbox-field, #text-field {
+  text-align: right;
+  margin-right: 54%;
+}
+
+#name-input, #email-input, #number-input, #dropdown-input, #radio-input, #checkbox-input, #text-input {
+ position: right;
+  text-align: left;
+  margin-left: 51%;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-size: 45px;
+}
+
+#description {
+  font-size: 17px;
+}
+
+#name, #email, #number, #dropdown {
+  height: 25px;
+  width: 200px;
+}
+#submit {
+  background-color: black;
+  border: transparent;
+  height: 40px;
+  width: 200px;
+  font-family: "Playfair Display";
+  font-size: 15px;
+  color: white;
+  margin: 55px;
+}
+
+#submit:hover {
+  color: black;
+  background-color: #CEE3F6;
+}
